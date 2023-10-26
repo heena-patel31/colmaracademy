@@ -147,18 +147,19 @@ body{
 .learnings{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+    align-content: center;
 
 }
 
 .learning{
     background-color: white;
     margin:16px;
+    width: 350px;
 }
 
 .learning img{
-    width: 350px;
+    WIDTH: -WEBKIT-FILL-AVAILABLE;
 }
 
 .learning_text{
@@ -186,9 +187,20 @@ text-align: left;
 }
 
 .thesis_links{
-    margin: 32px 24px;
+    margin: 22px 24px;
+}
+.thesis_link{
+    display: flex;
 }
 
+.thesis_text{
+    display:flex;
+    flex-direction: column;
+}
+
+.thesis_text h1{
+    font-size: larger;
+}
 .thesis img{
     width: 35%;
     height: auto;
