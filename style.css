@@ -1,0 +1,258 @@
+*{
+    font-family: 'Playpen Sans', cursive;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+}
+
+/* HEADER */
+
+.headR
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0px 24px;
+    height:64px;
+}
+ .logo{
+    display: flex;
+    height:32px;
+
+ }
+
+ .logo_img
+ {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+ }
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link{
+    margin: auto 10px;
+
+}
+
+.res_nav{
+    display: none;
+}
+
+.headR a{
+    text-decoration: none;
+}
+
+
+/*BANNER*/
+.banner{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    
+}
+
+.banner_image{
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.learn{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 32px 24px;
+
+}
+.learn h2{
+    font-size: 2rem;
+    margin: 0;
+}
+
+.learn p{
+    font-size: 1.5rem;
+}
+.start_btn
+{
+    width:100%;
+    padding: 8px;
+    background-color: grey;
+    color: white;
+}
+
+/*MAIN INFORMATION*/
+
+.info_main{
+    display: flex;
+    width: 100;
+    width: auto;
+}
+
+.info_image img{
+    overflow: hidden;
+    height: auto;
+    width: 60%;
+    WIDTH: -WEBKIT-FILL-AVAILABLE;
+}
+
+.info_image{
+    width: 60%;
+    margin: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.info_links{
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+    flex-wrap: wrap;
+    margin: 32px 24px;
+}
+
+.infolink img{
+    width: 35%;
+    height: auto;
+    margin:10px auto;
+}
+
+.infolink{
+    display: flex;
+    flex-direction: row;
+}
+
+/*LEARNNGS*/
+.learningsdiv{
+    text-align: center;
+    background-color: lightgrey;
+
+}
+
+.learningsdiv h2{
+    
+}
+
+.learnings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+
+.learning{
+    background-color: white;
+    margin:16px;
+}
+
+.learning img{
+    width: 350px;
+}
+
+.learning_text{
+
+display: flex;
+flex-direction: column;
+align-content: flex-start;
+text-align: left;
+}
+/*THESIS*/
+.thesis{
+    display: flex;
+    justify-content: space-around;
+}
+
+.thesis_video video{
+    WIDTH: -WEBKIT-FILL-AVAILABLE;
+}
+
+.thesis_video{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    margin:32px 24px;
+}
+
+.thesis_links{
+    margin: 32px 24px;
+}
+
+.thesis img{
+    width: 35%;
+    height: auto;
+    margin:10px auto;
+}
+/*FOOTER*/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.terms{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    padding:10px;
+}
+
+@media only screen and (max-width:680px)
+{
+    
+    .res_nav{
+        display: flex;
+    }
+    .logo p{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .banner{
+        flex-direction: column;
+    }
+
+    .info_image{
+        display:none;
+    }
+
+    .thesis_links{
+        display: none;
+    }
+
+    .learnings{
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .learningsdiv{
+        background-color: white;
+    }
+    
+    .learning_text h2{
+        
+        text-align: center;
+        background-color: lightgray;
+        padding:15px;
+        margin:0;
+    
+    }
+
+    .learning img, .learning p{
+        display: none;
+    }
+}
