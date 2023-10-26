@@ -43,6 +43,9 @@ body{
     margin: auto 10px;
 
 }
+.nav-links a:hover{
+    color:brown;
+}
 
 .res_nav{
     display: none;
@@ -51,6 +54,7 @@ body{
 .headR a{
     text-decoration: none;
 }
+
 
 
 /*BANNER*/
