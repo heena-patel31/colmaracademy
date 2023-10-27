@@ -253,6 +253,9 @@ footer{
     .banner{
         flex-direction: column;
     }
+    .banner_image{
+        width:auto;
+    }
 
     .info_image{
         display:none;
